@@ -11,20 +11,19 @@ const LoginForm = () => {
                 backgroundColor : 'white',
                 backgroundBlendMode: 'overlay',// Overlay to blend with the image
                 width: '100%',          // Use 70% of the container's width
-                maxWidth: '400px'    // Restrict the card to a maximum width of 400px
+                maxWidth: '450px'    // Restrict the card to a maximum width of 400px
         }}
         >
-            <div
-                className="card p-4 shadow-lg"
+            <div className="card p-4 shadow-lg border-0"
                 style={{
                     width: '100%',
                     maxWidth: '500px',
-                    backgroundColor: 'orange',
+                    backgroundColor: 'white',
                     borderRadius: '15px'
                 }}
             >
                 <form>
-                    <h4 className="card-title text-center mb-4 mt-2" style={{color: 'black'}}>Login Form</h4>
+                    <h4 className="card-title text-center mb-4 mt-2" style={{color: 'black'}}>Login </h4>
 
                     {/* Email Field */}
                     <div className="form-group mb-3">
@@ -67,7 +66,7 @@ const LoginForm = () => {
 
                     {/* Submit Button */}
                     <div className="d-grid">
-                        <button type="submit" className="btn btn-outline-dark">Sign in</button>
+                        <button type="submit" className="btn btn-dark">Sign in</button>
                     </div>
 
                     {/* Sign Up Link */}
